@@ -1,0 +1,22 @@
+div {
+    position: absolute;
+    z-index: 2;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    background-image: radial-gradient(circle at top right, white,red);
+}
+.satu {
+    position: relative;
+    width: 500px;
+    height: 70%;
+    z-index: 1;
+    background-image: radial-gradient( ellipse at bottom ,white,blue);
+}
+.dua {
+    position: relative;
+    width: 500px;
+    height: 25%;
+    z-index: 1;
+    background-image: linear-gradient(to right, white,blue,white);
+}
